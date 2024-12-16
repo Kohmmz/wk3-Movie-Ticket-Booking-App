@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    background-color: #000000;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Header */
+#header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #333; /* Dark background for the navbar */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Film List Section - Positioned to the Left */
+#flimcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Fixed left side list */
+#flimlist {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust this width as needed */
+    background-color: #222; /* Dark background for the list */
+    color: white;
+    padding-top: 20px;
+    height: 100vh; /* Full screen height */
+    overflow-y: auto; /* Allow scrolling */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    padding-left: 15px;
+}
+
+#flimlist li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #444; /* Dark gray background for list items */
+    border-radius: 8px;
+    border: 2px solid #fff; /* White border for contrast */
+}
+
+#flimlist li:hover {
+    background-color: #2a8140; /* Lighter gray on hover */
+}
+
+/* Movie Details Section - Centered and Smaller */
+#movie-details {
+    margin-left: 270px; /* Adjust based on the width of the left panel */
+    padding: 15px; /* Reduced padding */
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px; /* Limit the width */
+    margin-top: 30px; /* Space from the top */
+    padding-left: 20px;
+    background-color: #fffdfd; /* White background for movie details */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for the movie details */
+}
+
+#movie-poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgb(0, 255, 106);
+    margin-bottom: 15px; /* Reduced bottom margin */
+}
+
+#movie-title {
+    font-size: 20px; /* Smaller font size */
+    margin-top: 10px; /* Reduced space */
+    color: #000000; /* Dark gray color for the title */
+}
+
+#movie-runtime, #movie-showtime, #capacity, #available-tickets {
+    margin: 5px 0; /* Reduced space between text */
+    font-size: 14px; /* Smaller font size for better fit */
+    color: #000000; /* Lighter gray text */
+}
+#capacity{
+    color: #2ead29;
+}
+#available-tickets{
+color: red;
+}
+
+/* Styling for the button */
+#buy-ticket {
+    padding: 8px 16px; /* Smaller button size */
+    font-size: 14px; /* Smaller font size */
+    cursor: pointer;
+    background-color: #333; /* Dark background for the button */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#buy-ticket:disabled {
+    background-color: #e7510b; /* Gray background when disabled */
+    cursor: not-allowed;
+}
+
+#buy-ticket:hover {
+    background-color: #2ead29; /* Darker shade on hover */
+}
