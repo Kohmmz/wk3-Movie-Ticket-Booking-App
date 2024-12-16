@@ -1,7 +1,3 @@
-Here's a sample README for your Flatdango project. You can customize it further based on your personal preferences or any additional features you've added.
-
----
-
 # Flatdango - Movie Ticket Booking App
 
 ## Overview
@@ -32,7 +28,7 @@ To run this project locally, you need:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/flatdango.git
+   git clone https://github.com/Kohmmz/wk3-Movie-Ticket-Booking-App.git
    ```
 
 2. Navigate to the project folder:
@@ -81,19 +77,16 @@ To run this project locally, you need:
 - Additional functionality includes the ability to delete films from the list.
 
 ## Known Issues
-- No persistence of ticket sales across page reloads (currently only updated on the frontend).
+- No persistence of ticket sales across page reloads (currently only updated on the front end).
 - The "Buy Ticket" button can still be clicked without persistence on the backend (currently a mock feature).
 
 ## Contributing
-If you would like to contribute to this project, feel free to fork the repository and create a pull request with your improvements.
+If you'd like to contribute to this project, you can fix the repository and create a pull request with your improvements.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-### Notes:
-- Replace `your-username` in the GitHub repository URL with your actual GitHub username.
-- If you've made any additional features or modifications, you can add them to the **Bonus Features** section.
 
-Does this README look good to you, or would you like to make any adjustments or additions?
+
